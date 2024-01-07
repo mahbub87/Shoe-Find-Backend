@@ -60,3 +60,6 @@ for shoe in shoes:
     print(f"Name: {name}\nPicture: {picture}\nPrice: {price}\n{'||'*30}")
 
 print(count)
+#git add .
+#git commit -m "second commit"
+#git push
