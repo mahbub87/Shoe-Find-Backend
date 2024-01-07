@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 import time
 
-search = ('dunks')
+search = ('yeezy 350')
 search = search.replace(' ', '%20')
 
 url = 'https://www.goat.com/en-ca/search?query='+search+'&size_converted=us_sneakers_men_10'
