@@ -2,11 +2,11 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 import time
 
-search = ('yeezy 350')
-search = search.replace(' ', '%20')
+#search = ('yeezy 350')
+#search = search.replace(' ', '%20')
 
 url = 'https://www.goat.com/en-ca/search?query='+search+'&size_converted=us_sneakers_men_10'
-#url = 'https://www.goat.com/en-ca/search?web_groups=sneakers'
+#url = 'https://www.goat.com/en-ca/search?web_groups=sneakers&size_converted=us_sneakers_men_10'
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
 
 
@@ -60,6 +60,7 @@ for shoe in shoes:
     print(f"Name: {name}\nPicture: {picture}\nPrice: {price}\n{'||'*30}")
 
 print(count)
+
 #git add .
 #git commit -m "second commit"
 #git push
